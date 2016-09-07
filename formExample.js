@@ -1,4 +1,4 @@
-$(document).ready(function() {
+ $(document).ready(function() {
 	/*
 	** add new item to the list
 	*/

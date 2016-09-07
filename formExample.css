@@ -1,0 +1,118 @@
+/*
+** below are the default settings used on desktops, laptops, etc
+*/
+body{
+ 		background-image: url(https://newevolutiondesigns.com/images/freebies/cool-wallpaper-1.jpg);
+ 		background-size: 50%
+
+ 	}
+#formHeading {
+	color: navy;
+	font-size: 2em;
+}
+
+#addItemButton {
+	background-color: blue;
+	color: white;
+	font-size: 1.5em;
+	width: 100px;
+}
+#clearButton {
+	background-color: blue;
+	color: white;
+	font-size: 1.5em;
+	width: 100px;
+}
+#eight00
+	{
+		display:none;
+	}
+	#five50{
+	display:none;
+}
+	
+
+/*
+** for smaller screens (ie phones), use the settings below
+*/
+
+/*
+** for smaller screens (ie phones), use the settings below
+*/
+@media only screen and (min-width:550px) and (max-width: 850px)
+ {
+ 	body{
+ 		background-image: url(http://www.nacacnet.org/studentinfo/PublishingImages/fish.jpg);
+ 		background-size: 50%
+
+ 	}
+	#formHeading {
+		display:none;
+		
+	}
+	
+
+		
+	
+	#addItemButton {
+		font-size: 1.35em;
+		width: 75px;
+	}
+
+
+#clearButton {
+	font-size: 1.35em;
+		width:75px;
+}
+	#eight00
+	{
+		display:inline-block;
+color:black;
+	}
+	
+		#five00{
+			display:none;
+		}
+	
+	
+}
+/*
+** for smaller screens (ie phones), use the settings below
+*/
+@media only screen and (min-width:100px) and (max-width: 549px)
+ {
+ 	body{
+ 		background-image: url(https://cdn0.vox-cdn.com/thumbor/HSmn564UAKtMIG6QlDy0z8mBvsI=/2x0:995x662/1280x853/cdn0.vox-cdn.com/uploads/chorus_image/image/46682904/chicks.0.0.jpg);
+ 		background-size: 50%
+
+ 	}
+	#formHeading {
+		display:none;
+		
+	}
+	
+
+		
+	
+	#addItemButton {
+		font-size: 1em;
+		width: 55px;
+	}
+
+
+#clearButton {
+	font-size: 1em;
+		width:55px;
+}
+	#eight00
+	{
+		display:none;
+	}
+	#five50{
+	display:inline-block;
+	color:yellow;
+}
+		
+	
+	
+}

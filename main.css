@@ -7,7 +7,7 @@ body {
 	overflow-y:auto;
 	overflow-x: auto;
 font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
- background-image: url(./img/mainBg.jpg);
+ background-image: url(https://github.com/sundial778/responsiveDesign/blob/gh-pages/img/mainBg.JPG);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -128,7 +128,7 @@ a:visited {
 @media only screen and (max-width: 767px) {
   body {
 
-    background-image: url(./img/bgmobile.jpg);
+    background-image: url(https://github.com/sundial778/responsiveDesign/blob/gh-pages/img/bgmobile.JPG);
     background-color:beige;
   }
   .mainTitle{

@@ -127,13 +127,16 @@ a:visited {
 /* For mobile devices */
 @media only screen and (max-width: 767px) {
   body {
- background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+ background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
     background-image: url(img/bgmobile.JPG);
     background-color:beige;
-	  min-height: 100%;
+	
   }
   .mainTitle{
 	

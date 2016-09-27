@@ -194,6 +194,8 @@ background:none;
     font-weight:lighter;
   }
   #projects p,#life p,#work p ,#play p
-   { background-color:rgba(0,0,0,.5); 
+   { 
+background-color:rgba(0,0,0,.5); 
     display:none;
-  margin:none;}
+  margin:0px;
+}

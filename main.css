@@ -182,7 +182,7 @@ background:none;
     width: 100%;
     padding:10px;
     margin:0px;
-    background-color:none;
+    background:none;
     float:left;
   }
   #projects h4,#life h4,#work h4 ,#play h4
@@ -196,4 +196,4 @@ background:none;
   #projects p,#life p,#work p ,#play p
    { background-color:rgba(0,0,0,.5); 
     display:none;
-  margin-top:none;}
+  margin:none;}

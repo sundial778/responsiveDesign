@@ -126,6 +126,14 @@ a:hover {
   body
   {
     background-image: url(img/bgmobile.JPG);
+    background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color:beige;
+  color:white;
+  font-size:2vw;
+
     background-color:beige;
   }
   #contentChanger

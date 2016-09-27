@@ -11,7 +11,7 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100% cover;
+  background-size:cover;
   background-color:beige;
   color:white;
   font-size:2 vw;
@@ -129,7 +129,7 @@ a:hover {
     background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100% cover;
+  background-size: cover 100%;
   background-color:beige;
   color:white;
   font-size:2vw;

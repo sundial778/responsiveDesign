@@ -26,8 +26,14 @@ $('#play').click(function() {
 	});
 function fadeIn(id)
 	{
-		
-$(id).animate()
+		$('#contentChanger.inner').replaceWith($(id))
+$('#projects').hide()
+$('#play').hide()
+$('#work').hide()
+$('#life').hide()
+		$(id).appendTo( $( '#contentChanger' ));
+
+$(id).stop(true,true).animate({right:'=600',opacity:'show'},1000);
     }
     $('#plink').click(function() {
     	

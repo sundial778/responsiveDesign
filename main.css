@@ -4,6 +4,7 @@
 html{ min-height:100%;
 }
 
+span{color:white; margin-left:2px;  margin-right:2px;}
 body {
   overflow-y:auto;
   overflow-x: auto;
@@ -15,35 +16,36 @@ body {
   background-size:cover;
   background-color:beige;
   color:white;
-  font-size:2 vw;
+  font-size:2vw auto;
 
 
 }
 #projects,#life,#work,#play{
   background-color:rgba(0,0,0,.5);
   display:none;
-  margin-right:20%;
+  
 }
 #contentChanger{
-  max-width:35%;
-  height:auto;
-  float:right;
-  margin-right:30%;
+
+  height:30%;
+  margin:25%;
+  width:75%;
   
 }
 
 #navDiv{
+  font-size: 20px;
   padding-top:30px;
   padding-bottom:30px;
   margin:10px;
-  position:absolute;
+  position:fixed;
   bottom:0px;
 
   text-align:left;
 
   width:85%;
   margin-right:auto;
-  margin-left:auto;
+ 
 
 
 }
@@ -71,7 +73,9 @@ h3{
   font-size:100%;
   margin:0px;
   text-align: left;
-  height:500px;
+  height:25%;
+  margin:1vw;
+  position:fixed;
 
 
 
@@ -80,19 +84,18 @@ h3{
 .mainContainer
 {
   margin:10px;
-  padding-top: 10%;
-  padding-bottom:10%;
+  padding:1vw;
   text-align:center;
    overflow: hidden;
  }
 #navBar{
-
+background-color:black;
  display:inline;
  width:33%;
  margin:0;
  padding:0;
- font-size:22px;
-
+ font-size:55px;
+color:white;
 
 
 
@@ -103,27 +106,25 @@ h3{
   padding-left:30px;
   text-decoration:none;
   border-spacing:50px;
+  color:white;
 
 }
 a:link {
- border:1.6px solid;
- border-radius:3px;
- border-style: solid;
- background-color:beige;
-
+ 
 }
 a:visited {
+  color:white;
 
 }
 a:hover {
-  color: white;
-  background-color:red;    
+  color: rgba(0,0,0,0.5);
+      
 }
 #enter_mobile{
   display:none;
 }
 /* For mobile devices */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 990px) {
   body
   {
     background-image: url(img/bgmobile.JPG);
@@ -134,8 +135,7 @@ a:hover {
   background-color:beige;
   color:white;
   font-size:2vw;
-
-    background-color:beige;
+  background-color:beige;
   }
   #contentChanger
   {
@@ -167,9 +167,11 @@ background:none;
 
   }
   h1{
-    font-size:22px;
+    font-size:8vw;
     background-color:rgba(0,0,0,0);
+    margin:5px;
   }
+
   h3
   {
     display:none;
@@ -196,9 +198,10 @@ background:none;
   }
   #projects h4,#life h4,#work h4 ,#play h4
   {
+    margin-top:0px;
     letter-spacing:3px;
     text-transform: uppercase;
-    margin-bottom:1px;
+    margin-bottom:0px;
   background-color:rgba(0,0,0,.8); 
     font-weight:lighter;
   }
@@ -210,3 +213,4 @@ background-color:rgba(0,0,0,.5);
 }
   html{ min-height:100%;
 }
+span{color:black; margin-left:2px;  margin-right:2px;}
